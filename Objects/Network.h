@@ -8,12 +8,14 @@
 #include "Node.h"
 
 typedef struct network_t{
-    struct node_t* nodes;
+    struct node_t** nodes;
     int nodeCount;
 }network_t;
 
-node_t* createNewNetwork();
+network_t* createNewNetwork();
 
-node_t* loadNetwork();
+void loadNetwork(network_t *, FILE *);
+
+void printNetwork(network_t *);
 
 #endif //AI_BFSVSDFS_NETWORK_H

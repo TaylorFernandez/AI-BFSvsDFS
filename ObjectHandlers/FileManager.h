@@ -9,5 +9,7 @@
 
 FILE* loadFile(char *);
 
+int getNumLinesInFile(FILE *);
+
 
 #endif //AI_BFSVSDFS_FILEMANAGER_H

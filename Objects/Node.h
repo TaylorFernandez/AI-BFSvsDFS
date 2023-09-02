@@ -15,6 +15,8 @@ node_t* createNewNode();
 
 void loadNode(node_t* node, int nodeValues, int* connectedNodes);
 
+void printNode(node_t* node);
+
 
 
 #endif //AI_BFSVSDFS_NODE_H

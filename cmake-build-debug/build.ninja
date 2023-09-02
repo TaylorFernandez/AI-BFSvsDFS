@@ -73,6 +73,42 @@ build CMakeFiles/AI_BFSvsDFS.dir/Objects/Node.c.o: C_COMPILER__AI_BFSvsDFS_unsca
   OBJECT_DIR = CMakeFiles/AI_BFSvsDFS.dir
   OBJECT_FILE_DIR = CMakeFiles/AI_BFSvsDFS.dir/Objects
 
+build CMakeFiles/AI_BFSvsDFS.dir/Tests/Objects/NodeTests.c.o: C_COMPILER__AI_BFSvsDFS_unscanned_Debug /Users/taylorfernandez/Desktop/AI-BFSvsDFS/Tests/Objects/NodeTests.c || cmake_object_order_depends_target_AI_BFSvsDFS
+  DEP_FILE = CMakeFiles/AI_BFSvsDFS.dir/Tests/Objects/NodeTests.c.o.d
+  FLAGS = -g -std=gnu11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/AI_BFSvsDFS.dir
+  OBJECT_FILE_DIR = CMakeFiles/AI_BFSvsDFS.dir/Tests/Objects
+
+build CMakeFiles/AI_BFSvsDFS.dir/Tests/RunTests.c.o: C_COMPILER__AI_BFSvsDFS_unscanned_Debug /Users/taylorfernandez/Desktop/AI-BFSvsDFS/Tests/RunTests.c || cmake_object_order_depends_target_AI_BFSvsDFS
+  DEP_FILE = CMakeFiles/AI_BFSvsDFS.dir/Tests/RunTests.c.o.d
+  FLAGS = -g -std=gnu11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/AI_BFSvsDFS.dir
+  OBJECT_FILE_DIR = CMakeFiles/AI_BFSvsDFS.dir/Tests
+
+build CMakeFiles/AI_BFSvsDFS.dir/ObjectHandlers/StringManager.c.o: C_COMPILER__AI_BFSvsDFS_unscanned_Debug /Users/taylorfernandez/Desktop/AI-BFSvsDFS/ObjectHandlers/StringManager.c || cmake_object_order_depends_target_AI_BFSvsDFS
+  DEP_FILE = CMakeFiles/AI_BFSvsDFS.dir/ObjectHandlers/StringManager.c.o.d
+  FLAGS = -g -std=gnu11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/AI_BFSvsDFS.dir
+  OBJECT_FILE_DIR = CMakeFiles/AI_BFSvsDFS.dir/ObjectHandlers
+
+build CMakeFiles/AI_BFSvsDFS.dir/Tests/ObjectHandlers/StringManagerTests.c.o: C_COMPILER__AI_BFSvsDFS_unscanned_Debug /Users/taylorfernandez/Desktop/AI-BFSvsDFS/Tests/ObjectHandlers/StringManagerTests.c || cmake_object_order_depends_target_AI_BFSvsDFS
+  DEP_FILE = CMakeFiles/AI_BFSvsDFS.dir/Tests/ObjectHandlers/StringManagerTests.c.o.d
+  FLAGS = -g -std=gnu11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/AI_BFSvsDFS.dir
+  OBJECT_FILE_DIR = CMakeFiles/AI_BFSvsDFS.dir/Tests/ObjectHandlers
+
+build CMakeFiles/AI_BFSvsDFS.dir/Tests/ObjectHandlers/FileManagerTests.c.o: C_COMPILER__AI_BFSvsDFS_unscanned_Debug /Users/taylorfernandez/Desktop/AI-BFSvsDFS/Tests/ObjectHandlers/FileManagerTests.c || cmake_object_order_depends_target_AI_BFSvsDFS
+  DEP_FILE = CMakeFiles/AI_BFSvsDFS.dir/Tests/ObjectHandlers/FileManagerTests.c.o.d
+  FLAGS = -g -std=gnu11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/AI_BFSvsDFS.dir
+  OBJECT_FILE_DIR = CMakeFiles/AI_BFSvsDFS.dir/Tests/ObjectHandlers
+
+build CMakeFiles/AI_BFSvsDFS.dir/Tests/Objects/NetworkTests.c.o: C_COMPILER__AI_BFSvsDFS_unscanned_Debug /Users/taylorfernandez/Desktop/AI-BFSvsDFS/Tests/Objects/NetworkTests.c || cmake_object_order_depends_target_AI_BFSvsDFS
+  DEP_FILE = CMakeFiles/AI_BFSvsDFS.dir/Tests/Objects/NetworkTests.c.o.d
+  FLAGS = -g -std=gnu11 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/AI_BFSvsDFS.dir
+  OBJECT_FILE_DIR = CMakeFiles/AI_BFSvsDFS.dir/Tests/Objects
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target AI_BFSvsDFS
@@ -81,7 +117,7 @@ build CMakeFiles/AI_BFSvsDFS.dir/Objects/Node.c.o: C_COMPILER__AI_BFSvsDFS_unsca
 #############################################
 # Link the executable AI_BFSvsDFS
 
-build AI_BFSvsDFS: C_EXECUTABLE_LINKER__AI_BFSvsDFS_Debug CMakeFiles/AI_BFSvsDFS.dir/main.c.o CMakeFiles/AI_BFSvsDFS.dir/ObjectHandlers/FileManager.c.o CMakeFiles/AI_BFSvsDFS.dir/Objects/Network.c.o CMakeFiles/AI_BFSvsDFS.dir/Objects/Node.c.o
+build AI_BFSvsDFS: C_EXECUTABLE_LINKER__AI_BFSvsDFS_Debug CMakeFiles/AI_BFSvsDFS.dir/main.c.o CMakeFiles/AI_BFSvsDFS.dir/ObjectHandlers/FileManager.c.o CMakeFiles/AI_BFSvsDFS.dir/Objects/Network.c.o CMakeFiles/AI_BFSvsDFS.dir/Objects/Node.c.o CMakeFiles/AI_BFSvsDFS.dir/Tests/Objects/NodeTests.c.o CMakeFiles/AI_BFSvsDFS.dir/Tests/RunTests.c.o CMakeFiles/AI_BFSvsDFS.dir/ObjectHandlers/StringManager.c.o CMakeFiles/AI_BFSvsDFS.dir/Tests/ObjectHandlers/StringManagerTests.c.o CMakeFiles/AI_BFSvsDFS.dir/Tests/ObjectHandlers/FileManagerTests.c.o CMakeFiles/AI_BFSvsDFS.dir/Tests/Objects/NetworkTests.c.o
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.6
   OBJECT_DIR = CMakeFiles/AI_BFSvsDFS.dir
   POST_BUILD = :

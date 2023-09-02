@@ -10,4 +10,16 @@ add_executable(AI_BFSvsDFS
         Objects/Network.c
         Objects/Network.h
         Objects/Node.c
-        Objects/Node.h)
+        Objects/Node.h
+        "Tests/Objects/NodeTests.c"
+        Tests/RunTests.c
+        Tests/RunTests.h
+        "Tests/Objects/NodeTests.h"
+        ObjectHandlers/StringManager.c
+        ObjectHandlers/StringManager.h
+        Tests/ObjectHandlers/StringManagerTests.c
+        Tests/ObjectHandlers/StringManagerTests.h
+        Tests/ObjectHandlers/FileManagerTests.c
+        Tests/ObjectHandlers/FileManagerTests.h
+        Tests/Objects/NetworkTests.c
+        Tests/Objects/NetworkTests.h)

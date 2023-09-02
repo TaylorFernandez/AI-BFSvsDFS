@@ -8,7 +8,16 @@
 
 FILE* loadFile(char *fileName){
     FILE* inputFile = fopen(fileName, "r");
-    assert(inputFile != NULL);
-
     return inputFile;
+}
+
+int getNumLinesInFile(FILE* fp){
+    char buf[100];
+    int count = 0;
+    while(fscanf(fp, "%s", buf) == 1){
+        count++;
+    }
+    rewind(fp);
+    return count;
+
 }
