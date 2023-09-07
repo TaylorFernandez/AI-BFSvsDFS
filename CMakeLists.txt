@@ -5,21 +5,23 @@ set(CMAKE_C_STANDARD 11)
 
 add_executable(AI_BFSvsDFS
         main.c
-        ObjectHandlers/FileManager.c
-        ObjectHandlers/FileManager.h
-        Objects/Network.c
-        Objects/Network.h
-        Objects/Node.c
-        Objects/Node.h
+        Code/ObjectHandlers/FileManager.c
+        Code/ObjectHandlers/FileManager.h
+        Code/Objects/Network.c
+        Code/Objects/Network.h
+        Code/Objects/Node.c
+        Code/Objects/Node.h
         "Tests/Objects/NodeTests.c"
         Tests/RunTests.c
         Tests/RunTests.h
         "Tests/Objects/NodeTests.h"
-        ObjectHandlers/StringManager.c
-        ObjectHandlers/StringManager.h
+        Code/ObjectHandlers/StringManager.c
+        Code/ObjectHandlers/StringManager.h
         Tests/ObjectHandlers/StringManagerTests.c
         Tests/ObjectHandlers/StringManagerTests.h
         Tests/ObjectHandlers/FileManagerTests.c
         Tests/ObjectHandlers/FileManagerTests.h
         Tests/Objects/NetworkTests.c
-        Tests/Objects/NetworkTests.h)
+        Tests/Objects/NetworkTests.h
+        Code/Algorithms/BFS.c
+        Code/Algorithms/BFS.h)

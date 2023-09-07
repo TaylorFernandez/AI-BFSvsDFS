@@ -7,4 +7,5 @@
 void testNodeInit();
 void testNodeFill();
 void testPrintNode();
+void testFreeNode();
 #endif //AI_BFSVSDFS_NODETESTS_H

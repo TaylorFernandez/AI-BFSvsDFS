@@ -6,7 +6,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include "StringManagerTests.h"
-#include "../../ObjectHandlers/StringManager.h"
+#include "../../Code/ObjectHandlers/StringManager.h"
 
 void testStringSplitting(){
     char *testString = malloc(100 * sizeof(char));

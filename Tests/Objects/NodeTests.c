@@ -4,7 +4,7 @@
 #include <assert.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include "../../Objects/Node.h"
+#include "../../Code/Objects/Node.h"
 
 node_t* testNode;
 
@@ -37,4 +37,8 @@ void testPrintNode(){
     printf("Testing Printing Node");
     printNode(testNode);
     printf("Finished Testing Node Printing");
+}
+
+void testFreeNode(){
+    freeNode(testNode);
 }

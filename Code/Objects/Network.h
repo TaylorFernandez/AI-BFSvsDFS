@@ -18,4 +18,6 @@ void loadNetwork(network_t *, FILE *);
 
 void printNetwork(network_t *);
 
+void freeNetwork(network_t *);
+
 #endif //AI_BFSVSDFS_NETWORK_H

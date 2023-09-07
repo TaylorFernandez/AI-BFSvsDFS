@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-#include "ObjectHandlers/FileManager.h"
-#include "/Users/taylorfernandez/Desktop/AI-BFSvsDFS/Tests/RunTests.h"
+#include "Code/ObjectHandlers/FileManager.h"
+#include "Tests/RunTests.h"
+#include "Code/Objects/Network.h"
 
 
 /**
@@ -12,8 +13,11 @@
  */
 
 int main(){
+    //Need to be free'd
     char *terminalInput = malloc(40 * sizeof(char));
     char *decision = malloc(4 * sizeof(char));
+    int *startingNode = 0;
+    int *endingNode = 0;
 
     printf("Do you want to run tests? (Y/N)");
     scanf("%s", decision);
@@ -35,6 +39,15 @@ int main(){
             scanf("%s", terminalInput);
             openedFile = loadFile(terminalInput);
         }
+        network_t *network = createNewNetwork();
+        loadNetwork(network, openedFile);
+
+        printf("Which node do you want to start your search(1-%d: ", network->nodeCount);
+        scanf("%d", startingNode);
+
+        printf("Which node do you want to end your search(1-%d: ", network->nodeCount);
+        scanf("%d", endingNode);
+
     }
     return 0;
 }

@@ -2,7 +2,6 @@
 // Created by Taylor Fernandez on 9/1/23.
 //
 
-#include <assert.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include "Node.h"
@@ -24,11 +23,13 @@ node_t* createNewNode(){
  * @param nodeValue nodes number
  * @param connectedNodes nodes connected to the current node
  */
-void loadNode(node_t* node, int nodeValue, int* connectedNodes){
+void loadNode(node_t* node, int nodeValue, int* connectedNodes, int numConnectedNodes){
     node_t* curNode = node;
 
-    node->nodeNumber = nodeValue;
+    curNode->nodeNumber = nodeValue;
     curNode->connectedNodes = connectedNodes;
+    curNode->numConnectedNodes = numConnectedNodes;
+
 }
 
 /**
@@ -42,4 +43,9 @@ void printNode(node_t* curNode){
         printf("%d, ", curNode->connectedNodes[i]);
     }
     printf("%d]\n", curNode->connectedNodes[curNode->numConnectedNodes-1]);
+}
+
+void freeNode(node_t *node){
+    free(node->connectedNodes);
+    free(node);
 }

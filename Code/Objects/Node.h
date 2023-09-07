@@ -13,9 +13,11 @@ typedef struct node_t{
 
 node_t* createNewNode();
 
-void loadNode(node_t* node, int nodeValues, int* connectedNodes);
+void loadNode(node_t* node, int nodeValues, int* connectedNodes, int numConnectedNodes);
 
 void printNode(node_t* node);
+
+void freeNode(node_t *);
 
 
 
