@@ -14,7 +14,7 @@ network_t* createNewNetwork(){
 }
 
 void loadNetwork(network_t *network, FILE *file){
-    printf("Testing Loading the Network:\n");
+
     int numNodes = getNumLinesInFile(file);
     network->nodeCount = numNodes;
     node_t **nodes = malloc(numNodes * sizeof(node_t));
@@ -39,8 +39,8 @@ void loadNetwork(network_t *network, FILE *file){
             connectedNodes[j-1] = atoi(splitArray[j]);
         }
 
-        for(int f = 0; f < 2; f++){
-            printf("%d: connectedNode: %d\n",i, connectedNodes[f]);
+        for(int f = 0; f < numValuesInArray-1; f++){
+            printf("%d: connectedNode: %d\n",i+1, connectedNodes[f]);
         }
 
         node_t *node = createNewNode();

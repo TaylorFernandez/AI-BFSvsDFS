@@ -24,4 +24,12 @@ add_executable(AI_BFSvsDFS
         Tests/Objects/NetworkTests.c
         Tests/Objects/NetworkTests.h
         Code/Algorithms/BFS.c
-        Code/Algorithms/BFS.h)
+        Code/Algorithms/BFS.h
+        Code/Objects/Stack.c
+        Code/Objects/Stack.h
+        Code/Objects/Queue.c
+        Code/Objects/Queue.h
+        Tests/Objects/StackTests.c
+        Tests/Objects/StackTests.h
+        Tests/Objects/testQueue.c
+        Tests/Objects/testQueue.h)

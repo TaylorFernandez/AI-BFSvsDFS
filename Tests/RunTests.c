@@ -6,6 +6,8 @@
 #include "ObjectHandlers/StringManagerTests.h"
 #include "ObjectHandlers/FileManagerTests.h"
 #include "Objects/NetworkTests.h"
+#include "Objects/StackTests.h"
+#include "Objects/testQueue.h"
 
 void RunAllTests(){
     testNodeInit();
@@ -19,4 +21,11 @@ void RunAllTests(){
     testInit();
     testLoadNetwork();
     testFreeNetwork();
+    testStackInit();
+    testIsStackEmpty();
+    testPushAndPop();
+    testQueueInit();
+    testIsQueueEmpty();
+    testEnqueueAndDequeue();
+    testFreeQueue();
 }
